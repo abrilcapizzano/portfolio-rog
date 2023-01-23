@@ -1,0 +1,35 @@
+.intro-div{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+.foto-cv{
+    width: 200px;
+    margin: 20px;
+}
+h1{
+margin: 20px;
+}
+.texto-intro{
+font-size: 18px;
+padding: 14px;
+margin: 24px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.experiencias{
+    margin: 10px;
+    height: 80px;
+    text-align: center;
+}
+.titulo1{
+font-size: 18px;
+font-weight: bold;
+}
+.texto-exp{
+margin: 5px;
+}
