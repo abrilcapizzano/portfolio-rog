@@ -25,25 +25,12 @@ a{
     color: black;
 }
 
-
-
         @media screen and (min-width:200px) and (max-width:768px) {
             footer {
-                display: grid;
-                grid-template-columns: 100%;
-                grid-template-rows: repeat(3, 33%);
-                height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
             }
-                .newsletter {
-                    justify-self: center;
-                }
-        
-                .redes {
-                    justify-self: center;
-                }
-        
-                .menu-footer {
-                    justify-self: center;
-                }
             }
         

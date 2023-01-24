@@ -1,0 +1,45 @@
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: none;
+    padding: 16px;
+    color: black;
+}
+
+button{
+    border: none;
+}
+input{
+    width: 100%; 
+    box-shadow: 0 0 5px #f3fbf9;
+	padding: 1%;
+	border: 1px solid #e0e1e1;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+textarea{   box-shadow: 0 0 5px #d9dfdd;
+	padding: 4%;
+	border: 1px solid #fdf6f6;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;}
+
+    button{
+
+        box-shadow: 0 0 5px #d9dfdd;
+	padding: 2%;
+	border: 1px solid #fdf6f6;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    }

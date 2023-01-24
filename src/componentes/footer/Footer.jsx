@@ -3,6 +3,7 @@ import "./footer.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import insta from "./instagram.svg";
 import linkedin from "./linkedin.svg";
+import wpp from "./whatsapp.svg";
 
 function Footer() {
   return (
@@ -21,7 +22,7 @@ function Footer() {
 <h4>Contact:</h4>
 <p>
 <a href="https://wa.me/541160195353/" target="_blank" rel="noreferrer">
-    Whatsapp
+<img src={wpp} className="icon" alt="Whatsapp Logo" />
  </a></p>
 </div>        
 </footer>
