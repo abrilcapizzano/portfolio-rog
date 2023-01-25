@@ -8,6 +8,7 @@ import foto5 from "./lighthouse.jpg"
 import foto6 from "./plantas.jpg"
 import foto7 from "./sorvete.png"
 import foto8 from "./unicornio.png"
+import video from "./relax.mp4"
 function Cards () {
     return(  
 <div>
@@ -37,7 +38,8 @@ function Cards () {
             <a href={foto8} >
                 <img src={foto8}  alt=""/>
             </a>
-            </div>
+
+            <video width="340" controls loop autoPlay muted><source src={video} type="video/mp4" /></video></div>
     </div>
 </div>
     )
