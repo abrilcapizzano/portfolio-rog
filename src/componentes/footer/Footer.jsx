@@ -14,7 +14,7 @@ function Footer() {
         <h4>Social Media:</h4>
         <article>
        <a href="https://www.instagram.com/artisticaraquel/"> <img src={insta} className="icon" alt="Instagram Logo" /></a>
-      <a href="https://www.linkedin.com/mwlite/in/raquel-de-oliveira-gomes">  <img src={linkedin} className="icon" alt="Linkedin Logo" /></a>
+      <a href="https://www.linkedin.com/in/raquel-de-oliveira-gomes">  <img src={linkedin} className="icon" alt="Linkedin Logo" /></a>
         </article>
         </div>
 
