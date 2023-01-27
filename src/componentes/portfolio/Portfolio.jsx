@@ -18,25 +18,25 @@ function Cards () {
                 <img src={foto1} alt="Drinks and Food"/>
             </a>
             <a href={foto2}>
-                <img src={foto2} alt=""/>
+                <img src={foto2} alt="Rocket"/>
             </a>
             <a href={foto3}>
-                <img src={foto3} alt=""/>
+                <img src={foto3} alt="Heart"/>
             </a>
             <a href={foto4}>
-                <img src={foto4} alt=""/>
+                <img src={foto4} alt="Hey There"/>
             </a>
             <a href={foto5}>
-                <img src={foto5} alt=""/>
+                <img src={foto5} alt="Light House"/>
             </a>
             <a href={foto6}>
-                <img src={foto6} alt=""/>
+                <img src={foto6} alt="Plants"/>
             </a>
         <a href={foto7} >
-                <img src={foto7} alt=""/>
+                <img src={foto7} alt="Ice Cream"/>
             </a>
             <a href={foto8} >
-                <img src={foto8}  alt=""/>
+                <img src={foto8} alt="Unicorn"/>
             </a>
 
             <video width="340" controls loop autoPlay muted><source src={video} type="video/mp4" /></video></div>

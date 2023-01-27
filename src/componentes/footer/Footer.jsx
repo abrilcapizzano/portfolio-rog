@@ -13,7 +13,7 @@ function Footer() {
 <div className="redes">
         <h4>Social Media:</h4>
         <article>
-        <img src={insta} className="icon" alt="Instagram Logo" />
+       <a href="https://www.instagram.com/artisticaraquel/"> <img src={insta} className="icon" alt="Instagram Logo" /></a>
         <img src={linkedin} className="icon" alt="Linkedin Logo" />
         </article>
         </div>
