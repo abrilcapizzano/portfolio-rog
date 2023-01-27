@@ -9,12 +9,12 @@ function Footer() {
   return (
 <div>
 <footer>
-        <h3>Fulana de Tal</h3>
+        <h3>Raquel de Oliveira</h3>
 <div className="redes">
         <h4>Social Media:</h4>
         <article>
        <a href="https://www.instagram.com/artisticaraquel/"> <img src={insta} className="icon" alt="Instagram Logo" /></a>
-        <img src={linkedin} className="icon" alt="Linkedin Logo" />
+      <a href="https://www.linkedin.com/mwlite/in/raquel-de-oliveira-gomes">  <img src={linkedin} className="icon" alt="Linkedin Logo" /></a>
         </article>
         </div>
 

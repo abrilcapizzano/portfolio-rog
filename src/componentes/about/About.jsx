@@ -8,7 +8,7 @@ function Intro () {
     return(  
 <>
 <img src={icon} className="foto-cv" alt="Foto intro" />
-<h1>Fulano de Tal</h1>
+<h1>Raquel de Oliveira</h1>
 <h2>Brasileira</h2>
 <p className="texto-intro">Adobe Illustrator</p>
 
