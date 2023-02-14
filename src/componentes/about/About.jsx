@@ -9,30 +9,10 @@ function Intro () {
 <>
 <img src={icon} className="foto-cv" alt="Foto intro" />
 <h1>Raquel de Oliveira</h1>
-<h2>Brasileira</h2>
-<p className="texto-intro">Adobe Illustrator</p>
-
 <div className="contenedor">
 <article className="experiencias">
-    <p className="titulo1">Experiencia 1</p>
-    <p className="texto-exp">Lorem ipsum dolor sitciatis.</p>
+    <p className="titulo1">Image and Sound Design student at UBA (University of Buenos Aires)</p>
 </article>
-
-<article className="experiencias">
-    <p className="titulo1">Experiencia 2</p>
-    <p className="texto-exp">Lorem ipsum dolor sitciatis.</p>
-</article>
-
-
-<article className="experiencias">
-    <p className="titulo1">Experiencia 3</p>
-    <p className="texto-exp">Lorem ipsum dolor sitciatis.</p>
-</article>
-<article className="experiencias">
-    <p className="titulo1">Experiencia 4</p>
-    <p className="texto-exp">Lorem ipsum dolor sitciatis.</p>
-</article>
-
 </div>
 </>
     )

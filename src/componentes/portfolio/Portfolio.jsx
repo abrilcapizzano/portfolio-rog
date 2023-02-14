@@ -39,7 +39,7 @@ function Cards () {
                 <img src={foto8} alt="Unicorn"/>
             </a>
 
-            <video width="340" controls loop autoPlay muted><source src={video} type="video/mp4" /></video></div>
+            <video width="600" controls loop autoPlay muted><source src={video} type="video/mp4" /></video></div>
     </div>
 </div>
     )
