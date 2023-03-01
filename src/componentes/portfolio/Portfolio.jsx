@@ -8,7 +8,6 @@ import foto5 from "./lighthouse.jpg"
 import foto6 from "./plantas.jpg"
 import foto7 from "./sorvete.png"
 import foto8 from "./unicornio.png"
-import foto9 from "./meditacao.jpg"
 function Cards () {
     return(  
 <div>
@@ -37,9 +36,6 @@ function Cards () {
             </a>
             <a href={foto8} >
                 <img src={foto8} alt="Unicorn"/>
-            </a>
-            <a href={foto9} >
-                <img src={foto9} alt="Meditation"/>
             </a>
             </div>
     </div>
