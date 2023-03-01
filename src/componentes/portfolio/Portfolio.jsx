@@ -9,14 +9,11 @@ import foto6 from "./plantas.jpg"
 import foto7 from "./sorvete.png"
 import foto8 from "./unicornio.png"
 import foto9 from "./meditacao.jpg"
-import video1 from "./relax.mp4"
-import video2 from "./3d.mp4"
 function Cards () {
     return(  
 <div>
     <div>
         <div className="galeria">
-        <video width="600" controls autoPlay loop muted><source src={video1} type="video/mp4" /></video>
             <a href={foto1}>
                 <img src={foto1} alt="Drinks and Food"/>
             </a>
@@ -44,8 +41,6 @@ function Cards () {
             <a href={foto9} >
                 <img src={foto9} alt="Meditation"/>
             </a>
-            <video width="600" controls autoPlay loop muted><source src={video2} type="video/mp4" /></video>
-           
             </div>
     </div>
 </div>
