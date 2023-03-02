@@ -8,34 +8,35 @@ import foto5 from "./lighthouse.jpg"
 import foto6 from "./plantas.jpg"
 import foto7 from "./sorvete.png"
 import foto8 from "./unicornio.png"
+import video from "./3d.mp4"
 function Cards () {
     return(  
 <div>
     <div>
         <div className="galeria">
             <a href={foto1}>
-                <img src={foto1} alt="Drinks and Food"/>
+                <img className="imagen-portfolio" src={foto1} alt="Drinks and Food"/>
             </a>
             <a href={foto2}>
-                <img src={foto2} alt="Rocket"/>
+                <img className="imagen-portfolio" src={foto2} alt="Rocket"/>
             </a>
             <a href={foto3}>
-                <img src={foto3} alt="Heart"/>
+                <img className="imagen-portfolio" src={foto3} alt="Heart"/>
             </a>
             <a href={foto4}>
-                <img src={foto4} alt="Hey There"/>
+                <img className="imagen-portfolio" src={foto4} alt="Hey There"/>
             </a>
             <a href={foto5}>
-                <img src={foto5} alt="Light House"/>
+                <img className="imagen-portfolio" src={foto5} alt="Light House"/>
             </a>
             <a href={foto6}>
-                <img src={foto6} alt="Plants"/>
+                <img className="imagen-portfolio" src={foto6} alt="Plants"/>
             </a>
         <a href={foto7} >
-                <img src={foto7} alt="Ice Cream"/>
+                <img className="imagen-portfolio" src={foto7} alt="Ice Cream"/>
             </a>
             <a href={foto8} >
-                <img src={foto8} alt="Unicorn"/>
+                <img className="imagen-portfolio" src={foto8} alt="Unicorn"/>
             </a>
             </div>
     </div>
