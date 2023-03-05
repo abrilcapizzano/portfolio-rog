@@ -1,0 +1,19 @@
+.contenedor-videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.videos{
+    margin: 10px;
+    width: 800px;
+    height: 600px;
+}
+
+@media screen and (min-width:200px) and (max-width:768px) {
+    .videos{
+      width: 400px;
+      height: 400px;
+    }
+    }

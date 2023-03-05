@@ -10,16 +10,8 @@ align-items: center;
   height: 400px;
   margin: 10px;
 }
-.videos{
-  width: 400px;
-  height: 600px;
-  margin: 10px;
-}
 @media screen and (min-width:200px) and (max-width:768px) {
-  img{
-    width: 360px;
-  }
-  video{
-    width: 360px;
+  .imagen-portfolio{
+    width: 320px;
   }
   }

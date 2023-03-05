@@ -7,7 +7,10 @@ function Navegador() {
   return (
     <Nav justify variant="tabs">
       <Nav.Item>
-      <NavLink to="/"> <p>Portfolio</p> </NavLink>
+      <NavLink to="/"> <p>Illustrations</p> </NavLink>
+      </Nav.Item>
+      <Nav.Item>
+      <NavLink to="/animation"> <p>Animations</p> </NavLink>
       </Nav.Item>
       <Nav.Item>
       <NavLink to="/about"> <p>About Me</p> </NavLink>
