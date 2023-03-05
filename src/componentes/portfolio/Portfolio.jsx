@@ -27,6 +27,9 @@ function Cards () {
             <a href={foto4}>
                 <img className="imagen-portfolio" src={foto4} alt="Hey There"/>
             </a>
+            <a href={foto8} >
+                <img className="imagen-portfolio" src={foto8} alt="Unicorn"/>
+            </a>
             <a href={foto5}>
                 <img className="imagen-portfolio" src={foto5} alt="Light House"/>
             </a>
@@ -36,11 +39,8 @@ function Cards () {
         <a href={foto7} >
                 <img className="imagen-portfolio" src={foto7} alt="Ice Cream"/>
             </a>
-            <a href={foto8} >
-                <img className="imagen-portfolio" src={foto8} alt="Unicorn"/>
-            </a>
             <a href={foto9} >
-                <img className="imagen-portfolio" src={foto9} alt="Meditation"/>
+                <img className="imagen-horizontal" src={foto9} alt="Meditation"/>
             </a>
             </div>
     </div>
